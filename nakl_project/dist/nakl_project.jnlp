@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="nakl_project.jnlp">
+  <information>
+    <title>nakl_project</title>
+    <vendor>kanishka</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\dom4j.jar" size="508934" download="eager" />
+    <jar href="lib\mysql-5.1.8.jar" size="723660" download="eager" />
+    <jar href="lib\poi-3.9.jar" size="1869113" download="eager" />
+    <jar href="lib\poi-ooxml-3.9.jar" size="936648" download="eager" />
+    <jar href="lib\poi-ooxml-schemas-3.9.jar" size="4802621" download="eager" />
+    <jar href="lib\xmlbeans.jar" size="2666695" download="eager" />
+    <jar href="nakl_project.jar" size="56596" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="nakl_project" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="nakl_project.login_page"  name="nakl_project" />
+  <update check="always"/>
+</jnlp>
